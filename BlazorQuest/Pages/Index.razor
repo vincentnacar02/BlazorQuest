@@ -12,21 +12,14 @@
                 <h3 class="text-primary">Select Quest below to start:</h3>
             </div>
         </div>
-        <div class="row">
-            <div class="col text-center">
-                <button class="btn btn-primary" @onclick="() => StartQuest(QuestKey.EnchantedAmuletQuest)">Finding Enchanted Amulet</button>
+        @foreach (var questKey in _questService.QuestTitleMap.Keys)
+        {
+            <div class="row">
+                <div class="col text-center">
+                    <button class="btn btn-primary" @onclick="() => StartQuest(questKey)">@_questService.QuestTitleMap[questKey]</button>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col text-center">
-                <button class="btn btn-primary" @onclick="() => StartQuest(QuestKey.LegendaryCrystalHeart)">Search for Legendary Crystal Heart</button>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col text-center">
-                <button class="btn btn-primary" @onclick="() => StartQuest(QuestKey.LegendarySwordOfLight)">The Legendary Sword of Light</button>
-            </div>
-        </div>
+        }
     </div>
 } 
 else if (CurrentQuestPath != null)
