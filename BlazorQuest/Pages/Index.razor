@@ -1,0 +1,79 @@
+﻿@page "/"
+@using BlazorQuest.Data;
+@inject QuestService _questService;
+<PageTitle>BlazorQuest</PageTitle>
+
+@if (Quest == null)
+{
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="text-primary">Select Quest:</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <button class="btn btn-primary" @onclick="() => StartQuest(QuestKey.EnchantedAmuletQuest)">Finding Enchanted Amulet</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <button class="btn btn-primary" @onclick="() => StartQuest(QuestKey.LegendaryCrystalHeart)">Search for Legendary Crystal Heart</button>
+            </div>
+        </div>
+    </div>
+} 
+else if (CurrentQuestPath != null)
+{
+    <b class="text-primary">@CurrentQuestPath.Text</b>
+    <br />
+    @if (CurrentQuestPath.Options != null)
+    {
+        @foreach (var option in CurrentQuestPath.Options)
+        {
+            <button class="btn btn-primary" @onclick="() => GoTo(option.Goto)">@option.Text</button>
+            <br />
+        }
+    }
+} else
+{
+    <b class="text-primary">Oops. Unknown path.</b>
+    <button class="btn btn-primary" @onclick="() => GoTo(null)">Start again</button>
+}
+
+@code {
+    protected IDictionary<string, QuestPath> Quest { get; set; }
+
+    protected string CurrentPath = "start";
+    protected QuestPath? CurrentQuestPath;
+
+    protected void StartQuest(QuestKey quest)
+    {
+        InvokeAsync(() =>
+        {
+            Quest = _questService.LoadQuest(quest);
+            CurrentQuestPath = Quest[CurrentPath];
+            StateHasChanged();
+        });
+    }
+
+    protected void GoTo(string? path)
+    {
+        InvokeAsync(() =>
+        {
+            if (string.IsNullOrWhiteSpace(path))
+            {
+                path = "start";
+            }
+            CurrentPath = path;
+            if (Quest.ContainsKey(CurrentPath))
+            {
+                CurrentQuestPath = Quest[CurrentPath];
+            } else
+            {
+                CurrentQuestPath = null;
+            }
+            StateHasChanged();
+        });
+    }
+}

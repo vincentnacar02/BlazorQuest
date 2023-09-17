@@ -1,0 +1,292 @@
+{
+  "start": {
+    "text": "In the realm of Aldoria, a prophecy speaks of a legendary artifact known as the Crystal Heart, said to possess the power to restore balance to the land. As a brave adventurer, you embark on a journey to find the Crystal Heart. Your quest begins in the bustling city of Eldoria. Where would you like to start?",
+    "options": [
+      {
+        "text": "Visit the Royal Library for Information",
+        "goto": "royal_library"
+      },
+      {
+        "text": "Seek Guidance from the Wise Seer",
+        "goto": "wise_seer"
+      },
+      {
+        "text": "Explore the Mysterious Forest",
+        "goto": "mysterious_forest"
+      }
+    ]
+  },
+  "royal_library": {
+    "text": "You decide to visit the Royal Library in Eldoria, hoping to find information about the Crystal Heart's whereabouts. Inside the vast library, you discover ancient tomes and scrolls. A librarian approaches you, offering to assist in your search. How do you proceed?",
+    "options": [
+      {
+        "text": "Ask the Librarian for Information",
+        "goto": "ask_librarian"
+      },
+      {
+        "text": "Search for Clues Yourself",
+        "goto": "search_for_clues"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_royal_library"
+      }
+    ]
+  },
+  "ask_librarian": {
+    "text": "You ask the librarian for information about the Crystal Heart. She guides you to a section of the library filled with historical texts. After hours of research, you find a clue that leads you to the Whispering Caves. How do you proceed?",
+    "options": [
+      {
+        "text": "Set Off for the Whispering Caves",
+        "goto": "whispering_caves"
+      },
+      {
+        "text": "Return to the City to Prepare for the Journey",
+        "goto": "prepare_for_journey"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_ask_librarian"
+      }
+    ]
+  },
+  "search_for_clues": {
+    "text": "You decide to search for clues yourself among the dusty shelves. After hours of meticulous searching, you uncover a hidden map that points to the Whispering Caves. How do you proceed?",
+    "options": [
+      {
+        "text": "Set Off for the Whispering Caves",
+        "goto": "whispering_caves"
+      },
+      {
+        "text": "Return to the City to Prepare for the Journey",
+        "goto": "prepare_for_journey"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_search_for_clues"
+      }
+    ]
+  },
+  "wise_seer": {
+    "text": "You decide to seek guidance from the Wise Seer, a revered figure known for her insight. The Seer welcomes you into her humble abode and listens to your quest. She gazes into her crystal ball and reveals that the Crystal Heart is hidden within the Whispering Caves. How do you proceed?",
+    "options": [
+      {
+        "text": "Set Off for the Whispering Caves",
+        "goto": "whispering_caves"
+      },
+      {
+        "text": "Return to the City to Prepare for the Journey",
+        "goto": "prepare_for_journey"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_wise_seer"
+      }
+    ]
+  },
+  "mysterious_forest": {
+    "text": "You decide to explore the Mysterious Forest on the outskirts of Eldoria. As you venture deeper into the woods, you stumble upon an ancient, overgrown ruin. A faint whisper in the wind hints at the Crystal Heart's location. How do you proceed?",
+    "options": [
+      {
+        "text": "Investigate the Ruins",
+        "goto": "investigate_ruins"
+      },
+      {
+        "text": "Continue Deeper into the Forest",
+        "goto": "continue_deeper_forest"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_mysterious_forest"
+      }
+    ]
+  },
+  "investigate_ruins": {
+    "text": "You decide to investigate the ancient ruins. Inside, you find a hidden chamber with a pedestal holding the Crystal Heart. Congratulations, you've obtained the Crystal Heart! What do you do next?",
+    "options": [
+      {
+        "text": "Return to Eldoria with the Crystal Heart",
+        "goto": "return_with_crystal_heart"
+      },
+      {
+        "text": "Explore the Rest of the Ruins",
+        "goto": "explore_ruins"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_investigate_ruins"
+      }
+    ]
+  },
+  "continue_deeper_forest": {
+    "text": "You choose to continue deeper into the forest, hoping to find more clues. As you journey through the dense woods, you encounter a tribe of forest guardians who tell you that the Crystal Heart is hidden within the Whispering Caves. How do you proceed?",
+    "options": [
+      {
+        "text": "Set Off for the Whispering Caves",
+        "goto": "whispering_caves"
+      },
+      {
+        "text": "Return to the City to Prepare for the Journey",
+        "goto": "prepare_for_journey"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_continue_deeper_forest"
+      }
+    ]
+  },
+  "prepare_for_journey": {
+    "text": "You decide to return to the city to gather supplies and prepare for your journey to the Whispering Caves. After stocking up on provisions, you are ready to set off. How do you proceed?",
+    "options": [
+      {
+        "text": "Set Off for the Whispering Caves",
+        "goto": "whispering_caves"
+      },
+      {
+        "text": "Visit the Royal Library for One Last Research",
+        "goto": "one_last_research"
+      },
+      {
+        "text": "Seek the Wise Seer's Blessing",
+        "goto": "wise_seer_blessing"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_prepare_for_journey"
+      }
+    ]
+  },
+  "one_last_research": {
+    "text": "You visit the Royal Library for one last round of research before your journey. After thorough investigation, you confirm the location of the Whispering Caves. You are now well-prepared to set off. How do you proceed?",
+    "options": [
+      {
+        "text": "Set Off for the Whispering Caves",
+        "goto": "whispering_caves"
+      },
+      {
+        "text": "Seek the Wise Seer's Blessing",
+        "goto": "wise_seer_blessing"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_one_last_research"
+      }
+    ]
+  },
+  "wise_seer_blessing": {
+    "text": "You seek the Wise Seer's blessing for a safe and successful journey. She offers her blessings and guidance, assuring you that the Crystal Heart awaits you in the Whispering Caves. You are now ready to set off. How do you proceed?",
+    "options": [
+      {
+        "text": "Set Off for the Whispering Caves",
+        "goto": "whispering_caves"
+      },
+      {
+        "text": "Visit the Royal Library for One Last Research",
+        "goto": "one_last_research"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_wise_seer_blessing"
+      }
+    ]
+  },
+  "whispering_caves": {
+    "text": "You set off for the Whispering Caves, determined to find the Crystal Heart and fulfill the prophecy. The journey is treacherous, filled with challenges and tests of your resolve. Finally, you arrive at the entrance of the Whispering Caves. What do you do?",
+    "options": [
+      {
+        "text": "Enter the Whispering Caves",
+        "goto": "enter_caves"
+      },
+      {
+        "text": "Reflect on Your Journey Before Entering",
+        "goto": "reflect_on_journey"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_whispering_caves"
+      }
+    ]
+  },
+  "enter_caves": {
+    "text": "You enter the Whispering Caves, and their eerie silence surrounds you. As you delve deeper, you come across a chamber with the Crystal Heart radiating a gentle, soothing light. Congratulations, you've obtained the Crystal Heart! What do you do next?",
+    "options": [
+      {
+        "text": "Return to Eldoria with the Crystal Heart",
+        "goto": "return_with_crystal_heart"
+      },
+      {
+        "text": "Explore the Rest of the Caves",
+        "goto": "explore_caves"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_enter_caves"
+      }
+    ]
+  },
+  "explore_caves": {
+    "text": "You decide to explore the rest of the Whispering Caves before leaving. As you venture deeper, you encounter various challenges and hidden passages. After a thorough exploration, you decide to return to Eldoria with the Crystal Heart.",
+    "options": [
+      {
+        "text": "Return to Eldoria with the Crystal Heart",
+        "goto": "return_with_crystal_heart"
+      }
+    ]
+  },
+  "return_with_crystal_heart": {
+    "text": "You return to Eldoria, carrying the legendary Crystal Heart with you. The city rejoices at your success, and the land begins to heal. You have fulfilled the prophecy and restored balance to Aldoria. Congratulations on completing your quest!",
+    "options": []
+  },
+  "reflect_on_journey": {
+    "text": "You take a moment to reflect on your journey and the challenges you've overcome. With newfound determination, you decide to enter the Whispering Caves and claim the Crystal Heart.",
+    "options": [
+      {
+        "text": "Enter the Whispering Caves",
+        "goto": "enter_caves"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_reflect_on_journey"
+      }
+    ]
+  },
+  "hint_royal_library": {
+    "text": "You can ask the librarian for information, search for clues yourself, or visit other locations for leads."
+  },
+  "hint_ask_librarian": {
+    "text": "You can set off for the Whispering Caves or return to the city to prepare. Alternatively, you can ask for more information from the librarian."
+  },
+  "hint_search_for_clues": {
+    "text": "You can set off for the Whispering Caves or return to the city to prepare. Alternatively, you can ask for a hint."
+  },
+  "hint_wise_seer": {
+    "text": "You can set off for the Whispering Caves or return to the city to prepare. Alternatively, you can ask for a hint."
+  },
+  "hint_mysterious_forest": {
+    "text": "You can investigate the ruins or continue deeper into the forest. You may also ask for a hint."
+  },
+  "hint_investigate_ruins": {
+    "text": "You can return to Eldoria with the Crystal Heart or explore the rest of the ruins. Alternatively, you can ask for a hint."
+  },
+  "hint_continue_deeper_forest": {
+    "text": "You can set off for the Whispering Caves or return to the city to prepare. Alternatively, you can ask for a hint."
+  },
+  "hint_prepare_for_journey": {
+    "text": "You can set off for the Whispering Caves, visit the Royal Library for one last research, seek the Wise Seer's blessing, or ask for a hint."
+  },
+  "hint_one_last_research": {
+    "text": "You can set off for the Whispering Caves, seek the Wise Seer's blessing, or ask for a hint."
+  },
+  "hint_wise_seer_blessing": {
+    "text": "You can set off for the Whispering Caves, visit the Royal Library for one last research, or ask for a hint."
+  },
+  "hint_whispering_caves": {
+    "text": "You can enter the Whispering Caves or take a moment to reflect on your journey. Alternatively, you can ask for a hint."
+  },
+  "hint_enter_caves": {
+    "text": "You can return to Eldoria with the Crystal Heart or explore the rest of the caves. Alternatively, you can ask for a hint."
+  },
+  "hint_reflect_on_journey": {
+    "text": "You can enter the Whispering Caves or ask for a hint."
+  }
+}
