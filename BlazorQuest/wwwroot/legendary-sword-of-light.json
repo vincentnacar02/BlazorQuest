@@ -1,0 +1,342 @@
+{
+  "start": {
+    "text": "In the mystical land of Arkania, a great evil has awakened, threatening to plunge the world into darkness. As the chosen hero, your quest is to find the legendary Sword of Light and defeat the ancient dragon, Draegonar. Your journey begins in the humble village of Eldoria. Where do you want to begin?",
+    "options": [
+      {
+        "text": "Visit the Elder for Guidance",
+        "goto": "elder"
+      },
+      {
+        "text": "Explore the Enchanted Forest",
+        "goto": "enchanted_forest"
+      },
+      {
+        "text": "Search the Abandoned Mines",
+        "goto": "abandoned_mines"
+      }
+    ]
+  },
+  "elder": {
+    "text": "You decide to seek guidance from the village Elder, a wise and venerable figure. He listens to your quest and advises you to search for the Sword of Light in the Cave of Destiny, deep within the Enchanted Forest. How do you proceed?",
+    "options": [
+      {
+        "text": "Set Off for the Enchanted Forest",
+        "goto": "enchanted_forest"
+      },
+      {
+        "text": "Prepare for the Journey",
+        "goto": "prepare_for_journey"
+      }
+    ]
+  },
+  "enchanted_forest": {
+    "text": "You enter the mystical Enchanted Forest, where ancient magic flows through the trees. As you venture deeper, you encounter a talking squirrel who offers to guide you through the forest. How do you respond?",
+    "options": [
+      {
+        "text": "Accept the Squirrel's Guidance",
+        "goto": "squirrel_guidance"
+      },
+      {
+        "text": "Continue Alone",
+        "goto": "continue_alone"
+      }
+    ]
+  },
+  "squirrel_guidance": {
+    "text": "You accept the squirrel's guidance, and it leads you to a hidden glade where the Sword of Light is stuck in a stone. You pull it free, and its radiant power fills you. Congratulations, you've obtained the Sword of Light! What do you do next?",
+    "options": [
+      {
+        "text": "Return to Eldoria with the Sword",
+        "goto": "return_with_sword"
+      },
+      {
+        "text": "Explore the Rest of the Forest",
+        "goto": "explore_forest"
+      }
+    ]
+  },
+  "return_with_sword": {
+    "text": "You return to Eldoria, the Sword of Light in hand, and the villagers celebrate your success. The Elder informs you that Draegonar's lair lies in the Abandoned Mines. You are now ready to face the ancient dragon. What will you do?",
+    "options": [
+      {
+        "text": "Confront Draegonar in the Abandoned Mines",
+        "goto": "confront_draegonar"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_return_with_sword"
+      }
+    ]
+  },
+  "explore_forest": {
+    "text": "You choose to explore the rest of the Enchanted Forest, hoping to find more secrets and treasures. As you journey deeper, you encounter a mischievous forest spirit who challenges you to a riddle contest. How do you respond?",
+    "options": [
+      {
+        "text": "Accept the Riddle Contest",
+        "goto": "riddle_contest"
+      },
+      {
+        "text": "Continue Exploring the Forest",
+        "goto": "continue_exploring_forest"
+      }
+    ]
+  },
+  "riddle_contest": {
+    "text": "You accept the forest spirit's riddle contest. After an intense exchange of riddles, you emerge victorious. Impressed by your wit, the forest spirit rewards you with a magical amulet that enhances your abilities. What do you do next?",
+    "options": [
+      {
+        "text": "Return to Eldoria with the Amulet",
+        "goto": "return_with_amulet"
+      },
+      {
+        "text": "Continue Exploring the Forest",
+        "goto": "continue_exploring_forest"
+      }
+    ]
+  },
+  "return_with_amulet": {
+    "text": "You return to Eldoria with the magical amulet, and the villagers admire your newfound wisdom. The Elder informs you that Draegonar's lair lies in the Abandoned Mines. You are now ready to face the ancient dragon. What will you do?",
+    "options": [
+      {
+        "text": "Confront Draegonar in the Abandoned Mines",
+        "goto": "confront_draegonar"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_return_with_amulet"
+      }
+    ]
+  },
+  "continue_exploring_forest": {
+    "text": "You continue exploring the Enchanted Forest, hoping to uncover its secrets. As you journey deeper, you stumble upon a hidden pond inhabited by a water spirit named Elara. She tells you that the Sword of Light rests at the bottom of the pond. How do you proceed?",
+    "options": [
+      {
+        "text": "Dive into the Pond to Retrieve the Sword",
+        "goto": "retrieve_sword_from_pond"
+      },
+      {
+        "text": "Attempt to Communicate with Elara",
+        "goto": "communicate_with_elara"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_continue_exploring_forest"
+      }
+    ]
+  },
+  "communicate_with_elara": {
+    "text": "You attempt to communicate with Elara, the water spirit. She shares her knowledge of the Enchanted Forest and offers to help you retrieve the Sword of Light. What do you choose to do?",
+    "options": [
+      {
+        "text": "Accept Elara's Help to Retrieve the Sword",
+        "goto": "accept_elara_help"
+      },
+      {
+        "text": "Retrieve the Sword on Your Own",
+        "goto": "retrieve_sword_on_own"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_communicate_with_elara"
+      }
+    ]
+  },
+  "accept_elara_help": {
+    "text": "You accept Elara's help, and together, you retrieve the Sword of Light from the pond's depths. Its radiant power fills you, and you thank Elara for her assistance. What do you do next?",
+    "options": [
+      {
+        "text": "Return to Eldoria with the Sword",
+        "goto": "return_with_sword"
+      },
+      {
+        "text": "Continue Exploring the Forest",
+        "goto": "continue_exploring_forest"
+      }
+    ]
+  },
+  "retrieve_sword_on_own": {
+    "text": "You decide to retrieve the Sword of Light from the pond on your own. After a challenging underwater battle with magical guardians, you emerge victorious, holding the Sword of Light. What do you do next?",
+    "options": [
+      {
+        "text": "Return to Eldoria with the Sword",
+        "goto": "return_with_sword"
+      },
+      {
+        "text": "Continue Exploring the Forest",
+        "goto": "continue_exploring_forest"
+      }
+    ]
+  },
+  "confront_draegonar": {
+    "text": "You make your way to the Abandoned Mines, where Draegonar awaits. The ancient dragon senses your approach and confronts you in the heart of the mines. A fierce battle ensues as you wield the Sword of Light against the mighty beast. The fate of Arkania hangs in the balance!",
+    "options": [
+      {
+        "text": "Engage in Battle with Draegonar",
+        "goto": "battle_draegonar"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_confront_draegonar"
+      }
+    ]
+  },
+  "battle_draegonar": {
+    "text": "You engage in an epic battle with Draegonar, the ancient dragon. With the power of the Sword of Light and your newfound abilities, you manage to defeat the dragon and save Arkania from its impending doom. Congratulations, you are the hero who restored peace to the land!",
+    "options": []
+  },
+  "prepare_for_journey": {
+    "text": "You decide to prepare for your quest before setting off. You gather supplies, hone your skills, and seek the blessings of the village. When you are ready, you choose your next destination. What will it be?",
+    "options": [
+      {
+        "text": "Visit the Elder for Guidance",
+        "goto": "elder"
+      },
+      {
+        "text": "Explore the Enchanted Forest",
+        "goto": "enchanted_forest"
+      },
+      {
+        "text": "Search the Abandoned Mines",
+        "goto": "abandoned_mines"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_prepare_for_journey"
+      }
+    ]
+  },
+  "abandoned_mines": {
+    "text": "You decide to search the Abandoned Mines in hopes of finding clues about the Sword of Light's whereabouts. The mines are dark and treacherous. As you delve deeper, you encounter a group of hostile cave trolls. How do you proceed?",
+    "options": [
+      {
+        "text": "Engage in Battle with the Cave Trolls",
+        "goto": "battle_cave_trolls"
+      },
+      {
+        "text": "Attempt to Sneak Past Them",
+        "goto": "sneak_past_cave_trolls"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_abandoned_mines"
+      }
+    ]
+  },
+  "battle_cave_trolls": {
+    "text": "You choose to engage in battle with the cave trolls. It's a fierce and challenging fight, but your determination prevails, and you defeat the trolls. While exploring further, you discover an ancient mural that reveals the Sword of Light's location. What do you do next?",
+    "options": [
+      {
+        "text": "Set Off for the Enchanted Forest",
+        "goto": "enchanted_forest"
+      },
+      {
+        "text": "Return to Eldoria with the Clues",
+        "goto": "return_with_clues"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_battle_cave_trolls"
+      }
+    ]
+  },
+  "sneak_past_cave_trolls": {
+    "text": "You attempt to sneak past the cave trolls without engaging in battle. Carefully and silently, you manage to evade their notice and continue exploring the mines. Deep within, you find a hidden chamber containing the Sword of Light. Congratulations, you've obtained the Sword of Light! What do you do next?",
+    "options": [
+      {
+        "text": "Return to Eldoria with the Sword",
+        "goto": "return_with_sword"
+      },
+      {
+        "text": "Explore the Rest of the Mines",
+        "goto": "explore_mines"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_sneak_past_cave_trolls"
+      }
+    ]
+  },
+  "explore_mines": {
+    "text": "You decide to explore the rest of the Abandoned Mines, hoping to uncover more secrets. As you venture deeper, you encounter ancient traps and puzzles. After solving them, you find a hidden passage that leads to the Sword of Light. Congratulations, you've obtained the Sword of Light! What do you do next?",
+    "options": [
+      {
+        "text": "Return to Eldoria with the Sword",
+        "goto": "return_with_sword"
+      },
+      {
+        "text": "Continue Exploring the Mines",
+        "goto": "continue_exploring_mines"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_explore_mines"
+      }
+    ]
+  },
+  "continue_exploring_mines": {
+    "text": "You continue to explore the Abandoned Mines, intrigued by their mysteries. Deep within, you discover an ancient forge where you can enhance the Sword of Light. After the improvements, you're even more prepared to face Draegonar. What will you do next?",
+    "options": [
+      {
+        "text": "Return to Eldoria with the Enhanced Sword",
+        "goto": "return_with_enhanced_sword"
+      },
+      {
+        "text": "Confront Draegonar in the Abandoned Mines",
+        "goto": "confront_draegonar"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_continue_exploring_mines"
+      }
+    ]
+  },
+  "return_with_clues": {
+    "text": "You return to Eldoria with the clues you discovered in the Abandoned Mines. The Elder examines them and tells you that the Sword of Light is located in the Enchanted Forest's Cave of Destiny. You are now ready to set off. What do you do next?",
+    "options": [
+      {
+        "text": "Set Off for the Enchanted Forest",
+        "goto": "enchanted_forest"
+      },
+      {
+        "text": "Ask for a Hint",
+        "goto": "hint_return_with_clues"
+      }
+    ]
+  },
+  "hint_prepare_for_journey": {
+    "text": "You can visit the Elder for guidance, explore the Enchanted Forest, search the Abandoned Mines, or ask for a hint."
+  },
+  "hint_return_with_sword": {
+    "text": "You can confront Draegonar in the Abandoned Mines or ask for a hint."
+  },
+  "hint_return_with_amulet": {
+    "text": "You can confront Draegonar in the Abandoned Mines or ask for a hint."
+  },
+  "hint_continue_exploring_forest": {
+    "text": "You can dive into the pond to retrieve the Sword, attempt to communicate with Elara, or ask for a hint."
+  },
+  "hint_communicate_with_elara": {
+    "text": "You can accept Elara's help, retrieve the Sword on your own, or ask for a hint."
+  },
+  "hint_confront_draegonar": {
+    "text": "You can engage in battle with Draegonar or ask for a hint."
+  },
+  "hint_abandoned_mines": {
+    "text": "You can engage in battle with the cave trolls, attempt to sneak past them, or ask for a hint."
+  },
+  "hint_battle_cave_trolls": {
+    "text": "You can set off for the Enchanted Forest, return to Eldoria with the clues, or ask for a hint."
+  },
+  "hint_sneak_past_cave_trolls": {
+    "text": "You can return to Eldoria with the Sword or explore the rest of the mines. Alternatively, you can ask for a hint."
+  },
+  "hint_explore_mines": {
+    "text": "You can return to Eldoria with the Sword, continue exploring the mines, or ask for a hint."
+  },
+  "hint_continue_exploring_mines": {
+    "text": "You can return to Eldoria with the enhanced Sword, confront Draegonar in the Abandoned Mines, or ask for a hint."
+  },
+  "hint_return_with_clues": {
+    "text": "You can set off for the Enchanted Forest or ask for a hint."
+  }
+}

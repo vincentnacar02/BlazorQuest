@@ -8,6 +8,7 @@ namespace BlazorQuest.Data
         public QuestService() {
             QuestFileMap.Add(QuestKey.EnchantedAmuletQuest, "wwwroot/enchanted-amulet-quest.json");
             QuestFileMap.Add(QuestKey.LegendaryCrystalHeart, "wwwroot/legendary-crystal-heart.json");
+            QuestFileMap.Add(QuestKey.LegendarySwordOfLight, "wwwroot/legendary-sword-of-light.json");
         }
 
         public IDictionary<string, QuestPath> LoadQuest(QuestKey quest)
@@ -27,6 +28,7 @@ namespace BlazorQuest.Data
     public enum QuestKey
     {
         EnchantedAmuletQuest,
-        LegendaryCrystalHeart
+        LegendaryCrystalHeart,
+        LegendarySwordOfLight
     }
 }
