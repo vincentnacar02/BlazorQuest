@@ -81,9 +81,9 @@ else if (CurrentQuestPath != null)
 
     protected void ShowHint(string path)
     {
-        if (Quest.ContainsKey(CurrentPath))
+        if (Quest.ContainsKey(path))
         {
-            var hintPath = Quest[CurrentPath];
+            var hintPath = Quest[path];
             HintText = hintPath.Text;
         } else
         {
