@@ -23,6 +23,13 @@ provide below format in prompt
 }
 ```
 
+# Sample quests
+[Enchanted Amulet Quest](https://github.com/vincentnacar02/BlazorQuest/blob/master/BlazorQuest/wwwroot/enchanted-amulet-quest.json)
+
+[Search for Legendary Crystal Heart](https://github.com/vincentnacar02/BlazorQuest/blob/master/BlazorQuest/wwwroot/legendary-crystal-heart.json)
+
+[The Legendary Sword of Light](https://github.com/vincentnacar02/BlazorQuest/blob/master/BlazorQuest/wwwroot/legendary-sword-of-light.json)
+
 # Screenshots
 ![screen1](https://github.com/vincentnacar02/BlazorQuest/blob/master/Screenshots/screenshot1.PNG?raw=true)
 
